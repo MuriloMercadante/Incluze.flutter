@@ -1,0 +1,363 @@
+[
+  {
+    "id": 1,
+    "nome": "Café Encontro Sensorial",
+    "categoria": "Restaurante",
+    "endereco": "Rua Augusta, 1200",
+    "bairro": "Consolação",
+    "descricao": "Cafeteria com horário de baixo estímulo (luzes suaves e sem música) às terças e cardápio em Braille.",
+    "imagem": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=600&h=400&fit=crop&q=80",
+    "nota": 4.7,
+    "avaliacoes": 58,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "braille",
+      "baixo_estimulo",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 2,
+    "nome": "Hospital Comunitário Bela Vista",
+    "categoria": "Saúde",
+    "endereco": "Rua Treze de Maio, 450",
+    "bairro": "Bela Vista",
+    "descricao": "Recepção com intérprete de Libras em horário comercial, elevadores com áudio e piso tátil até a triagem.",
+    "imagem": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop&q=80",
+    "nota": 4.3,
+    "avaliacoes": 112,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador",
+      "piso_tatil",
+      "libras",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 3,
+    "nome": "Poupatempo Paulista (Unidade Demo)",
+    "categoria": "Serviço Público",
+    "endereco": "Av. Paulista, 1500",
+    "bairro": "Bela Vista",
+    "descricao": "Atendimento prioritário, guichê rebaixado e atendimento em Libras mediante agendamento.",
+    "imagem": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop&q=80",
+    "nota": 3.9,
+    "avaliacoes": 87,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "elevador",
+      "libras",
+      "piso_tatil"
+    ]
+  },
+  {
+    "id": 4,
+    "nome": "Livraria Página Aberta",
+    "categoria": "Comércio",
+    "endereco": "Rua Haddock Lobo, 320",
+    "bairro": "Cerqueira César",
+    "descricao": "Acervo de livros em Braille e audiolivros. Entrada com degrau, mas possui rampa móvel sob pedido.",
+    "imagem": "https://images.unsplash.com/photo-1526243741027-444d633d7365?w=600&h=400&fit=crop&q=80",
+    "nota": 4.1,
+    "avaliacoes": 23,
+    "verificado": false,
+    "recursos": [
+      "braille",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 5,
+    "nome": "Parque Linear Trianon (Demo)",
+    "categoria": "Lazer",
+    "endereco": "Rua Peixoto Gomide, 949",
+    "bairro": "Jardim Paulista",
+    "descricao": "Trilhas com piso tátil e banheiros adaptados. Alguns trechos possuem raízes que dificultam a passagem de cadeiras.",
+    "imagem": "https://images.unsplash.com/photo-1519331379826-f10be5486c6f?w=600&h=400&fit=crop&q=80",
+    "nota": 3.6,
+    "avaliacoes": 41,
+    "verificado": true,
+    "recursos": [
+      "banheiro_adaptado",
+      "piso_tatil",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Cinema Inclusivo Frei Caneca",
+    "categoria": "Lazer",
+    "endereco": "Rua Frei Caneca, 569",
+    "bairro": "Consolação",
+    "descricao": "Sessões com audiodescrição, legendas descritivas e sessões azuis para pessoas no espectro autista.",
+    "imagem": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop&q=80",
+    "nota": 4.8,
+    "avaliacoes": 95,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador",
+      "baixo_estimulo",
+      "libras"
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Restaurante Sabor de Casa",
+    "categoria": "Restaurante",
+    "endereco": "Alameda Santos, 88",
+    "bairro": "Paraíso",
+    "descricao": "Possui rampa na entrada, porém o banheiro adaptado está sendo usado como depósito segundo relatos.",
+    "imagem": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&h=400&fit=crop&q=80",
+    "nota": 2.8,
+    "avaliacoes": 19,
+    "verificado": false,
+    "recursos": [
+      "cadeirante"
+    ]
+  },
+  {
+    "id": 8,
+    "nome": "Biblioteca Municipal Vila Mariana (Demo)",
+    "categoria": "Serviço Público",
+    "endereco": "Rua Domingos de Morais, 2100",
+    "bairro": "Vila Mariana",
+    "descricao": "Sala de leitura silenciosa, acervo em Braille, lupas eletrônicas e elevador acessível.",
+    "imagem": "https://images.unsplash.com/photo-1521587760476-6c12a4b040da?w=600&h=400&fit=crop&q=80",
+    "nota": 4.6,
+    "avaliacoes": 64,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "elevador",
+      "braille",
+      "baixo_estimulo",
+      "banheiro_adaptado"
+    ]
+  },
+  {
+    "id": 9,
+    "nome": "Farmácia Bem Estar 24h",
+    "categoria": "Saúde",
+    "endereco": "Rua da Consolação, 2300",
+    "bairro": "Consolação",
+    "descricao": "Entrada no nível da calçada, corredores largos e atendentes treinados em Libras básica.",
+    "imagem": "https://images.unsplash.com/photo-1576602976047-174e57a47881?w=600&h=400&fit=crop&q=80",
+    "nota": 4.0,
+    "avaliacoes": 31,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "libras",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 10,
+    "nome": "Museu Aberto da Cidade (Demo)",
+    "categoria": "Cultura",
+    "endereco": "Av. Paulista, 2000",
+    "bairro": "Bela Vista",
+    "descricao": "Maquetes táteis, audioguia, visitas mediadas em Libras e horários com redução de estímulos.",
+    "imagem": "https://images.unsplash.com/photo-1518998053901-5348d3961a04?w=600&h=400&fit=crop&q=80",
+    "nota": 4.9,
+    "avaliacoes": 140,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador",
+      "piso_tatil",
+      "libras",
+      "braille",
+      "cao_guia",
+      "baixo_estimulo"
+    ]
+  },
+  {
+    "id": 11,
+    "nome": "Academia Movimento Livre",
+    "categoria": "Esporte",
+    "endereco": "Rua Pamplona, 700",
+    "bairro": "Jardim Paulista",
+    "descricao": "Aparelhos adaptados para cadeirantes e vestiário acessível. Ambiente com música alta em horário de pico.",
+    "imagem": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=600&h=400&fit=crop&q=80",
+    "nota": 4.2,
+    "avaliacoes": 27,
+    "verificado": false,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador"
+    ]
+  },
+  {
+    "id": 12,
+    "nome": "Mercado Bom Preço",
+    "categoria": "Comércio",
+    "endereco": "Rua Vergueiro, 1800",
+    "bairro": "Paraíso",
+    "descricao": "Carrinhos adaptados disponíveis, mas sem piso tátil e com corredores estreitos nas promoções.",
+    "imagem": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&fit=crop&q=80",
+    "nota": 3.1,
+    "avaliacoes": 15,
+    "verificado": false,
+    "recursos": [
+      "cadeirante",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 13,
+    "nome": "Teatro Municipal Acessível (Demo)",
+    "categoria": "Cultura",
+    "endereco": "Praça Ramos de Azevedo, s/n",
+    "bairro": "República",
+    "descricao": "Sessões com audiodescrição e intérprete de Libras aos sábados, lugares reservados para cadeirantes e elevador até o balcão.",
+    "imagem": "https://images.unsplash.com/photo-1503095396549-807759245b35?w=600&h=400&fit=crop&q=80",
+    "nota": 4.6,
+    "avaliacoes": 87,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador",
+      "libras",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 14,
+    "nome": "Galeria de Arte Ponte Aberta",
+    "categoria": "Cultura",
+    "endereco": "Rua Oscar Freire, 540",
+    "bairro": "Jardins",
+    "descricao": "Obras com legendas em Braille, réplicas táteis de esculturas e visitas guiadas com audiodescrição mediante agendamento.",
+    "imagem": "https://images.unsplash.com/photo-1554907984-15263bfd63bd?w=600&h=400&fit=crop&q=80",
+    "nota": 4.4,
+    "avaliacoes": 36,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "braille",
+      "piso_tatil",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 15,
+    "nome": "Escola Estadual Aprender Juntos (Demo)",
+    "categoria": "Educação",
+    "endereco": "Rua Domingos de Morais, 2100",
+    "bairro": "Vila Mariana",
+    "descricao": "Sala de recursos multifuncionais, professores com formação em Libras e rampas em todos os blocos.",
+    "imagem": "https://images.unsplash.com/photo-1580582932707-520aed937b7b?w=600&h=400&fit=crop&q=80",
+    "nota": 4.2,
+    "avaliacoes": 49,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "libras",
+      "piso_tatil"
+    ]
+  },
+  {
+    "id": 16,
+    "nome": "Clínica Odontológica Sorriso para Todos",
+    "categoria": "Saúde",
+    "endereco": "Av. Brigadeiro Luís Antônio, 980",
+    "bairro": "Bela Vista",
+    "descricao": "Cadeira odontológica adaptada, atendimento com hora marcada e sala silenciosa para pacientes autistas.",
+    "imagem": "https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&h=400&fit=crop&q=80",
+    "nota": 4.8,
+    "avaliacoes": 64,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "baixo_estimulo"
+    ]
+  },
+  {
+    "id": 17,
+    "nome": "Padaria Pão Nosso",
+    "categoria": "Restaurante",
+    "endereco": "Rua Cardeal Arcoverde, 310",
+    "bairro": "Pinheiros",
+    "descricao": "Balcão rebaixado, cardápio em Braille e funcionários treinados em Libras básica. Entrada com degrau de 5 cm.",
+    "imagem": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop&q=80",
+    "nota": 3.9,
+    "avaliacoes": 41,
+    "verificado": false,
+    "recursos": [
+      "braille",
+      "libras",
+      "cao_guia"
+    ]
+  },
+  {
+    "id": 18,
+    "nome": "Shopping Centro Paulista (Demo)",
+    "categoria": "Comércio",
+    "endereco": "Av. Paulista, 2064",
+    "bairro": "Bela Vista",
+    "descricao": "Cadeiras de rodas para empréstimo, elevadores com braile, banheiros família e sala sensorial no 2º piso.",
+    "imagem": "https://images.unsplash.com/photo-1519567241046-7f570eee3ce6?w=600&h=400&fit=crop&q=80",
+    "nota": 4.5,
+    "avaliacoes": 203,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador",
+      "piso_tatil",
+      "braille",
+      "cao_guia",
+      "baixo_estimulo"
+    ]
+  },
+  {
+    "id": 19,
+    "nome": "Centro Aquático Municipal (Demo)",
+    "categoria": "Esporte",
+    "endereco": "Rua Abílio Soares, 1300",
+    "bairro": "Paraíso",
+    "descricao": "Piscina com elevador hidráulico, vestiários adaptados e aulas de natação adaptada para pessoas com deficiência.",
+    "imagem": "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=600&h=400&fit=crop&q=80",
+    "nota": 4.3,
+    "avaliacoes": 55,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "elevador"
+    ]
+  },
+  {
+    "id": 20,
+    "nome": "Centro de Reabilitação Mover-se",
+    "categoria": "Saúde",
+    "endereco": "Rua Vergueiro, 3185",
+    "bairro": "Vila Mariana",
+    "descricao": "Fisioterapia e terapia ocupacional com acesso totalmente plano, intérprete de Libras e sinalização tátil.",
+    "imagem": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop&q=80",
+    "nota": 4.7,
+    "avaliacoes": 92,
+    "verificado": true,
+    "recursos": [
+      "cadeirante",
+      "banheiro_adaptado",
+      "piso_tatil",
+      "libras",
+      "cao_guia"
+    ]
+  }
+]
