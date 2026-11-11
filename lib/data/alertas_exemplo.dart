@@ -16,7 +16,7 @@ class AlertasExemplo {
             'Elevador do lado esquerdo parado desde cedo. '
             'O acesso ao 2º andar só está possível pela escada.',
         localNome: 'Hospital Comunitário Bela Vista',
-        localId: 2,
+        localId: 13,
         data: agora.subtract(const Duration(minutes: 40)),
       ),
       Alerta(
@@ -26,7 +26,7 @@ class AlertasExemplo {
             'Mesas e cadeiras de um bar ocupando toda a calçada. '
             'Cadeirantes precisam ir pela rua.',
         localNome: 'Rua Augusta, próximo ao nº 1200',
-        localId: 1,
+        localId: 12,
         data: agora.subtract(const Duration(hours: 2)),
       ),
       Alerta(
@@ -36,7 +36,7 @@ class AlertasExemplo {
             'Obra na entrada principal com tapumes. Use a entrada '
             'lateral, que tem rampa.',
         localNome: 'Biblioteca Municipal Vila Mariana (Demo)',
-        localId: 8,
+        localId: 19,
         data: agora.subtract(const Duration(hours: 5)),
       ),
       Alerta(
@@ -46,7 +46,7 @@ class AlertasExemplo {
             'Piso tátil arrancado em um trecho de uns 10 metros '
             'perto da bilheteria.',
         localNome: 'Cinema Inclusivo Frei Caneca',
-        localId: 6,
+        localId: 17,
         data: agora.subtract(const Duration(hours: 9)),
       ),
       Alerta(
@@ -56,7 +56,7 @@ class AlertasExemplo {
             'Carro estacionado em cima da rampa de acesso. '
             'Já avisamos a segurança do shopping.',
         localNome: 'Shopping Centro Paulista (Demo)',
-        localId: 18,
+        localId: 29,
         data: agora.subtract(const Duration(days: 1, hours: 3)),
       ),
       Alerta(
@@ -66,7 +66,7 @@ class AlertasExemplo {
             'Intérprete de Libras ausente hoje na sessão das 15h. '
             'A legenda está funcionando normalmente.',
         localNome: 'Teatro Municipal Acessível (Demo)',
-        localId: 13,
+        localId: 24,
         data: agora.subtract(const Duration(days: 1, hours: 8)),
       ),
       Alerta(
@@ -76,7 +76,7 @@ class AlertasExemplo {
             'Elevador hidráulico da piscina em manutenção. '
             'Previsão de volta na próxima semana.',
         localNome: 'Centro Aquático Municipal (Demo)',
-        localId: 19,
+        localId: 30,
         data: agora.subtract(const Duration(days: 2)),
       ),
       Alerta(
@@ -86,7 +86,7 @@ class AlertasExemplo {
             'Caçamba de entulho bloqueando a calçada em frente '
             'ao mercado.',
         localNome: 'Mercado Bom Preço',
-        localId: 12,
+        localId: 23,
         data: agora.subtract(const Duration(days: 3)),
         resolvido: true,
       ),
@@ -97,7 +97,7 @@ class AlertasExemplo {
             'Buraco na faixa de pedestres da esquina. '
             'A prefeitura já fez o reparo.',
         localNome: 'Parque Linear Trianon (Demo)',
-        localId: 5,
+        localId: 16,
         data: agora.subtract(const Duration(days: 4)),
         resolvido: true,
       ),
@@ -106,7 +106,7 @@ class AlertasExemplo {
         tipo: 'rampa_bloqueada',
         descricao: 'Entrega de mercadorias bloqueando a rampa pela manhã.',
         localNome: 'Livraria Página Aberta',
-        localId: 4,
+        localId: 15,
         data: agora.subtract(const Duration(days: 6)),
         resolvido: true,
       ),

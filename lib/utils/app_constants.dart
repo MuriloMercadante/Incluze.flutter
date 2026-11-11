@@ -7,11 +7,13 @@ class AppConstants {
 
   static const String logoPath = 'assets/images/logo.png';
 
-  /// Endpoint REST (GET) da API do projeto.
-  ///
-  /// O arquivo `api/locais.json` deste repositório é servido pelo GitHub.
-  static const String urlLocais =
-      'https://raw.githubusercontent.com/MuriloMercadante/Incluze/main/api/locais.json';
+  /// API REST do projeto (Spring Boot + Azure SQL), publicada no Azure.
+  /// Repositório: https://github.com/MuriloMercadante/Incluze.Micro
+  static const String urlApi =
+      'https://rm554799-incluze-api.livelytree-72ea2755.brazilsouth.azurecontainerapps.io';
+
+  /// Endpoint REST (GET) com os locais no formato consumido pelo app.
+  static const String urlLocais = '$urlApi/api/v1/locais/app';
 
   static const Duration tempoLimiteRequisicao = Duration(seconds: 15);
   static const Duration duracaoSplash = Duration(milliseconds: 3500);
