@@ -7,11 +7,13 @@
 | Nome completo | RM |
 |---|---|
 | Murilo Mercadante | 555926 |
-| Breno Takase | 554799 |
+| Breno Takase Gomes | 554799 |
 
 ## Tema da Global Solution
 
-**CitizenTech**: tecnologia criada a partir das necessidades reais das pessoas, conectada aos **ODS 10 (Redução das Desigualdades)** e **ODS 11 (Cidades e Comunidades Sustentáveis)** da ONU.
+**CitizenTech** - Soluções tecnológicas focadas em necessidades reais das pessoas e no benefício concreto ao cidadão.
+
+**ODS Principais do Projeto:** **ODS 10 (Redução das Desigualdades)** e **ODS 11 (Cidades e Comunidades Sustentáveis)**.
 
 ## Descrição da solução
 
@@ -57,24 +59,6 @@ flowchart TD
 | Novo alerta | `/novo-alerta` | Formulário de nova barreira temporária (+5 pontos) |
 | Favoritos | `/favoritos` | Locais favoritados, recebidos da Home como parâmetro |
 | Perfil | `/perfil` | Pontos, nível, benefícios, estatísticas, ODS e opção de rever a introdução |
-
-## Prints das telas
-
-| Splash | Onboarding | Home |
-|---|---|---|
-| ![Splash](docs/prints/01-splash.png) | ![Onboarding](docs/prints/02-onboarding.png) | ![Home](docs/prints/03-home.png) |
-
-| Busca e filtros | Detalhes do local | Avaliação |
-|---|---|---|
-| ![Filtros](docs/prints/04-filtros.png) | ![Detalhes](docs/prints/05-detalhes.png) | ![Avaliação](docs/prints/06-avaliacao.png) |
-
-| Alertas | Favoritos | Perfil |
-|---|---|---|
-| ![Alertas](docs/prints/07-alertas.png) | ![Favoritos](docs/prints/08-favoritos.png) | ![Perfil](docs/prints/09-perfil.png) |
-
-| Estado de carregamento | Estado de erro (com "Tentar novamente") |
-|---|---|
-| ![Carregando](docs/prints/10-carregando.png) | ![Erro](docs/prints/11-erro.png) |
 
 ## API utilizada
 
@@ -139,6 +123,20 @@ lib/
 **Persistência local (SharedPreferences):** introdução vista, favoritos, avaliações, alertas e pontos.
 
 **Navegação:** rotas nomeadas (`Navigator.pushNamed`), passagem de parâmetros (`arguments`, por exemplo o `Local` para a tela de detalhes) e retorno com resultado (`Navigator.pop(context, pontos)`).
+
+## Prints das telas
+
+| Splash | Onboarding | Home |
+| :---: | :---: | :---: |
+| <img src="assets/images/Splash.png" width="200" alt="Splash"> | <img src="assets/images/Onboarding.png" width="200" alt="Onboarding"> | <img src="assets/images/Home.png" width="200" alt="Home"> |
+
+| Busca e filtros | Detalhes do local | Avaliação |
+| :---: | :---: | :---: |
+| <img src="assets/images/Locais%26Filtros.png" width="200" alt="Busca e Filtros"> | <img src="assets/images/Detalhe.png" width="200" alt="Detalhes"> | <img src="assets/images/Avaliacao.png" width="200" alt="Avaliação"> |
+
+| Alertas | Favoritos | Perfil |
+| :---: | :---: | :---: |
+| <img src="assets/images/Alertas.png" width="200" alt="Alertas"> | <img src="assets/images/Favoritos.png" width="200" alt="Favoritos"> | <img src="assets/images/Perfil.png" width="200" alt="Perfil"> |
 
 ## Requisitos atendidos
 
