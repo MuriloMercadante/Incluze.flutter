@@ -165,7 +165,4 @@ Testes automatizados e análise estática:
 flutter test
 flutter analyze
 ```
-
-## Vídeo pitch
-
-`<link do vídeo pitch>`
+.
