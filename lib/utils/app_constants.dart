@@ -6,6 +6,7 @@ class AppConstants {
   static const String slogan = 'Acessibilidade mapeada por quem vive a cidade';
 
   static const String logoPath = 'assets/images/logo.png';
+  static const String logoNomePath = 'assets/images/logo_nome.png';
 
   /// API REST do projeto (Spring Boot + Azure SQL), publicada no Azure.
   /// Repositório: https://github.com/MuriloMercadante/Incluze.Micro
