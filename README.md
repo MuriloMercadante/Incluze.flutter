@@ -169,4 +169,4 @@ Testes automatizados e análise estática:
 flutter test
 flutter analyze
 ```
-.
+[Link do Pitch](https://youtu.be/es5Ei2XbayQ)
